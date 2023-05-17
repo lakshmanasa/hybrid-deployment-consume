@@ -34,6 +34,5 @@ http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/
 	<configuration-properties
 		doc:name="Configuration properties"
 		doc:id="f7726410-62bb-44c2-900f-f73b07cd5dc2" file="${env}.properties" />
-	<json-logger:config name="JSON_Logger_Config" doc:name="JSON Logger Config" doc:id="43c984e9-16c6-4ab1-8b71-69e95492ccd2" environment="${mule.env}" />
 	
 </mule>
