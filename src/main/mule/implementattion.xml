@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/json-logger http://www.mulesoft.org/schema/m
 			</jms:consumer-type>
 			<jms:response outboundContentType="application/json" persistentDelivery="true" />
 		</jms:listener>
-		<logger level="INFO" doc:name="Loggers" doc:id="4545abfe-861e-4774-bc23-3f9c297a04ab" message="After consuming the payload from JMS Server, the payload is this ::::::: #[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="4545abfe-861e-4774-bc23-3f9c297a04ab" message="After consuming the payload from JMS Server, the payload is this ::::::: #[payload]"/>
 		<ee:transform doc:name="having the data which is coming from Consumer" doc:id="d5026a7e-0794-409c-812b-facdf9fe1da1" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
